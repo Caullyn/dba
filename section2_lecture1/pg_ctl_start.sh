@@ -1,0 +1,1 @@
+sudo -u postgres /usr/lib/postgresql/9.3/bin/pg_ctl start -w -D /pgdata 

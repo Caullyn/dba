@@ -1,0 +1,1 @@
+sudo sed -i 's@#hot_standby = off@hot_standby = on@g' /pgdata/postgresql.conf

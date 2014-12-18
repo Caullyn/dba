@@ -1,1 +1,1 @@
-rsync -av /pgdata -e "ssh -i ~/.ssh/id_rsa -p 22 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" --delete --exclude server.crt --exclude server.key --exclude recovery.done --exclude postmaster.pid --exclude archive --exclude backup_label 54.165.58.33:/
+rsync -av /pgdata -e "ssh -i ~/.ssh/id_rsa -p 22 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" --delete --exclude server.crt --exclude server.key --exclude recovery.done --exclude postmaster.pid --exclude archive --exclude backup_label 54.165.51.243:/
